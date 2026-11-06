@@ -1,0 +1,535 @@
+{
+  "testcases": {
+    "add_numbers": {
+      "action": "add_numbers",
+      "arguments": {
+        "number1": 123,
+        "number2": 234
+      }
+    },
+    "add_numbers2": {
+      "action": "add_numbers",
+      "arguments": {
+        "number1": 333,
+        "number2": 444
+      }
+    },
+    "subtract_numbers": {
+      "action": "subtract_numbers",
+      "arguments": {
+        "number1": 999,
+        "number2": 121212
+      }
+    },
+    "poly2block": {
+      "action": "poly2block",
+      "arguments": {
+        "semantic": "xex",
+        "coefficients": [
+          12,
+          127,
+          9,
+          0
+        ]
+      }
+    },
+    "poly2blockGCM": {
+      "action": "poly2block",
+      "arguments": {
+        "semantic": "gcm",
+        "coefficients": [
+          0, 1, 2, 3, 4, 5, 6, 7, 15, 16
+        ]
+      }
+    },
+    "poly2block2GCM": {
+      "action": "poly2block",
+      "arguments": {
+        "semantic": "gcm",
+        "coefficients": [
+          0, 1, 2, 3, 127, 126
+        ]
+      }
+    },
+    "poly2block3GCM": {
+      "action": "poly2block",
+      "arguments": {
+        "semantic": "gcm",
+        "coefficients": [
+          101, 91
+        ]
+      }
+    },
+    "poly2block4GCMasd": {
+      "action": "poly2block",
+      "arguments": {
+        "semantic": "gcm",
+        "coefficients": [
+          64, 2
+        ]
+      }
+    },
+    "poly2block54257GCM": {
+      "action": "poly2block",
+      "arguments": {
+        "semantic": "gcm",
+        "coefficients": [
+          128, 7, 2, 1, 0
+        ]
+      }
+    },
+    "block2poly2": {
+      "action": "block2poly",
+      "arguments": {
+        "semantic": "xex",
+        "block": "ARIAAAAAAAAAAAAAAAAAgA=="
+      }
+    },
+    "poly2block2": {
+      "action": "block2poly",
+      "arguments": {
+        "semantic": "xex",
+        "block": "hSQAAAAAAAAAAAAAAAAAAA=="
+      }
+    },
+    "block2poly3GCM": {
+      "action": "block2poly",
+      "arguments": {
+        "semantic": "gcm",
+        "block": "ARIAAAAAAAAAAAAAAAAAgA=="
+      }
+    },
+    "poly2block4GCM": {
+      "action": "block2poly",
+      "arguments": {
+        "semantic": "gcm",
+        "block": "hSQAAAAAAAAAAAAAAAAAAA=="
+      }
+    },
+    "poly2block5GCM": {
+      "action": "block2poly",
+      "arguments": {
+        "semantic": "gcm",
+        "block": "AAABxQgAAAAAAAQQAAAAAA=="
+      }
+    },
+    "gfmul": {
+      "action": "gfmul",
+      "arguments": {
+      "semantic": "xex",
+          "a": "ARIAAAAAAAAAAAAAAAAAgA==",
+          "b": "AgAAAAAAAAAAAAAAAAAAAA=="
+      }
+    },
+    "gfmul1gcm": {
+      "action": "gfmul",
+      "arguments": {
+      "semantic": "gcm",
+          "a": "ARIAAAAAAAAAAAAAAAAAgA==",
+          "b": "AgAAAAAAAAAAAAAAAAAAAA=="
+      }
+    },
+    "gcm_decrypt_sdxea1281": {
+        "action": "gcm_decrypt",
+        "arguments": {
+          "algorithm": "sea128",
+          "nonce": "VOkKCCnH4EYE1z4L",
+          "key": "ByMrTiLP7isfBDL7vsKkOQ==",
+          "ciphertext": "UdpDzPAafM+y",
+          "ad": "UknNF3AKBaF/8GUnFUw=",
+          "tag": "sN0+1fG+WSOHMswF7IBnZA=="
+        }
+    },
+    "gfmul2gcm": {
+      "action": "gfmul",
+      "arguments": {
+      "semantic": "gcm",
+          "a": "AAAAAAAAAAAAAAAQBAAAAA==",
+          "b": "IAAAAAAAAACAAAAAAAAAAA=="
+      }
+    },
+    "encryptSEA128": {
+      "action": "sea128",
+      "arguments": {
+        "mode": "encrypt",
+        "key": "istDASeincoolerKEYrofg==",
+        "input": "yv66vvrO263eyviIiDNEVQ=="
+      }
+    },
+    "decryptSEA128": {
+      "action": "sea128",
+      "arguments": {
+        "mode": "decrypt",
+        "key": "istDASeincoolerKEYrofg==",
+        "input": "D5FDo3iVBoBN9gVi9/MSKQ=="
+      }
+    },
+    "encryptXEX": {
+      "action": "xex",
+      "arguments": {
+        "mode": "encrypt",
+        "key": "B1ygNO/CyRYIUYhTSgoUysX5Y/wWLi4UiWaVeloUWs0=",
+        "tweak": "6VXORr+YYHrd2nVe0OlA+Q==",
+        "input": "/aOg4jMocLkBLkDLgkHYtFKc2L9jjyd2WXSSyxXQikpMY9ZRnsJE76e9dW9olZIW"
+      }
+    },
+    "decryptXEX": {
+      "action": "xex",
+      "arguments": {
+        "mode": "decrypt",
+        "key": "B1ygNO/CyRYIUYhTSgoUysX5Y/wWLi4UiWaVeloUWs0=",
+        "tweak": "6VXORr+YYHrd2nVe0OlA+Q==",
+        "input": "lr/ItaYGFXCtHhdPndE65yg7u/GIdM9wscABiiFOUH2Sbyc2UFMlIRSMnZrYCW1a"
+      }
+    },
+    "gcm_encrypt": {
+      "action": "gcm_encrypt",
+        "arguments": {
+          "algorithm": "aes128",
+          "nonce": "4gF+BtR3ku/PUQci",
+          "key": "Xjq/GkpTSWoe3ZH0F+tjrQ==",
+          "plaintext": "RGFzIGlzdCBlaW4gVGVzdA==",
+          "ad": "QUQtRGF0ZW4="
+        }
+    },
+    "gcm_encrypt_sea128": {
+      "action": "gcm_encrypt",
+      "arguments": {
+        "algorithm": "sea128",
+        "nonce": "4gF+BtR3ku/PUQci",
+        "key": "Xjq/GkpTSWoe3ZH0F+tjrQ==",
+        "plaintext": "RGFzIGlzdCBlaW4gVGVzdA==",
+        "ad": "QUQtRGF0ZW4="
+        }
+    },
+    "gcm_decrypt_aes128": {
+      "action": "gcm_decrypt",
+      "arguments": {
+        "algorithm": "aes128",
+        "nonce": "SwVYf3IJ2p/VTiyz",
+        "key": "bYfxz4zIS8NGWT55xSGy7Q==",
+        "ciphertext": "ltCrCEYjUCHd",
+        "ad": "w8pc8/yCt2zxERPVcsnOMx8/HmrfAfGUQtD+vyMMpJ5lrF2S",
+        "tag": "d4Z2uVRSmpVE1TEa/Zhx9A=="
+      }
+    },
+    "polynomial_add_zero": {
+      "action": "gfpoly_add",
+      "arguments": {
+        "A": [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==", 
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ],
+        "B": [
+          "KryptoanalyseAAAAAAAAA==",
+          "DHBWMannheimAAAAAAAAAA=="
+        ]
+      }
+    },
+    "polynomial_add": {
+      "action": "gfpoly_add",
+      "arguments": {
+        "A": [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==",
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ],
+        "B": [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==",
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ]
+      }
+    },
+    "gfpoly_mul": {
+      "action": "gfpoly_mul",
+      "arguments": {
+        "A": [
+          "JAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "B": [
+          "0AAAAAAAAAAAAAAAAAAAAA==",
+          "IQAAAAAAAAAAAAAAAAAAAA=="
+        ]
+      }
+    },
+    "gfpoly_pow": {
+      "action": "gfpoly_pow",
+      "arguments": {
+        "A": [
+          "JAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "k": 3
+      }
+    },
+    "gfdiv": {
+      "action": "gfdiv",
+      "arguments": {
+        "a": "JAAAAAAAAAAAAAAAAAAAAA==",
+        "b": "wAAAAAAAAAAAAAAAAAAAAA==" 
+      }
+    },
+    "gfpoly_divmod": {
+      "action": "gfpoly_divmod",
+      "arguments": {
+        "A": [
+          "JAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "B": [
+          "0AAAAAAAAAAAAAAAAAAAAA==",
+          "IQAAAAAAAAAAAAAAAAAAAA=="
+        ]
+      }
+    },
+    "gfpoly_powmod": {
+      "action": "gfpoly_powmod",
+      "arguments": {
+        "A": [
+          "JAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "M": [
+          "KryptoanalyseAAAAAAAAA==",
+          "DHBWMannheimAAAAAAAAAA=="
+        ],
+        "k": 1000
+      }
+    },
+    "gfpoly_sort": {
+      "action": "gfpoly_sort",
+      "arguments": {
+        "polys": [
+          [
+            "NeverGonnaGiveYouUpAAA==",
+            "NeverGonnaLetYouDownAA==", 
+            "NeverGonnaRunAroundAAA==",
+            "AndDesertYouAAAAAAAAAA=="
+          ],
+          [
+            "WereNoStrangersToLoveA==",
+            "YouKnowTheRulesAAAAAAA==",
+            "AndSoDoIAAAAAAAAAAAAAA=="
+          ],
+          [
+            "NeverGonnaMakeYouCryAA==",
+            "NeverGonnaSayGoodbyeAA==",
+            "NeverGonnaTellALieAAAA==",
+            "AndHurtYouAAAAAAAAAAAA=="
+          ]
+        ]
+      }
+    },
+    "gfpoly_make_monic": {
+      "action": "gfpoly_make_monic",
+      "arguments": {
+        "A": [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==", 
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ]
+      }
+    },
+    "gfpoly_sqrt": {
+      "action": "gfpoly_sqrt",
+      "arguments": {
+        "Q": [
+          "5TxUxLHO1lHE/rSFquKIAg==",
+          "AAAAAAAAAAAAAAAAAAAAAA==", 
+          "0DEUJYdHlmd4X7nzzIdcCA==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "PKUa1+JHTxHE8y3LbuKIIA==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "Ds96KiAKKoigKoiKiiKAiA=="
+        ]
+      }
+    },
+    "gfpoly_diff": {
+      "action": "gfpoly_diff",
+      "arguments": {
+        "F": [
+          "IJustWannaTellYouAAAAA==",
+          "HowImFeelingAAAAAAAAAA==", 
+          "GottaMakeYouAAAAAAAAAA==",
+          "UnderstaaaaaaaaaaaaanQ=="
+        ]
+      }
+    },
+    "gfpoly_gcd": {
+      "action": "gfpoly_gcd",
+      "arguments": {
+        "A": [
+          "DNWpXnnY24XecPa7a8vrEA==",
+          "I8uYpCbsiPaVvUznuv1IcA==", 
+          "wsbiU432ARWuO93He3vbvA==",
+          "zp0g3o8iNz7Y+8oUxw1vJw==",
+          "J0GekE3uendpN6WUAuJ4AA==",
+          "wACd0e6u1ii4AAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "B": [
+          "I20VjJmlSnRSe88gaDiLRQ==",
+          "0Cw5HxJm/pfybJoQDf7/4w==",
+          "8ByrMMf+vVj5r3YXUNCJ1g==", 
+          "rEU/f2UZRXqmZ6V7EPKfBA==",
+          "LfdALhvCrdhhGZWl9l9DSg==",
+          "KSUKhN0n6/DZmHPozd1prw==",
+          "DQrRkuA9Zx279wAAAAAAAA==",
+          "AhCEAAAAAAAAAAAAAAAAAA=="
+        ]
+      }
+    },
+    "gcm-crack-short": {
+      "action": "gcm_crack",
+      "arguments": {
+        "nonce": "4gF+BtR3ku/PUQci",
+        "m1": {
+          "ciphertext": "WymaCg==",
+          "associated_data": "jg==",
+          "tag": "S4uwu465gKQxJB87ITMbYw=="
+        },
+        "m2": {
+          "ciphertext": "zWts",
+          "associated_data": "Fw5+WG1oigE4ZAs8",
+          "tag": "xVYqXb5m/EIdsLk4ZV+TmA=="
+        },
+        "m3": {
+          "ciphertext": "FA==",
+          "associated_data": "8XNZ1RhAHI4fLl9J",
+          "tag": "NtvsSBGh6Iabs1FeBL5Wkg=="
+        },
+        "forgery": {
+          "ciphertext": "qKY9dw==",
+          "associated_data": "Hj0MSPPS"
+        }
+      }
+    },
+    "gcm-crack-middle": {
+      "action": "gcm_crack",
+      "arguments": {
+        "nonce": "4gF+BtR3ku/PUQci",
+        "m1": {
+          "ciphertext": "ZrodJLQaQN43UN0YIsfziuBE6Ypfer3so2a03NY94zfSqvir8cWf",
+          "associated_data": "8Gkl5yfmmuUgsiZek4pBKA4=",
+          "tag": "Bb3qohA6uHkttEjkGbBfNQ=="
+        },
+        "m2": {
+          "ciphertext": "0BCdlMBBFv/xRr9xrXJBRkKxv0ewGOUm7uXtMEssHH0pJ7LRyQ==",
+          "associated_data": "y40kBJa2NSlLvTjUXkD8Bvc=",
+          "tag": "MAYsvHQQJAi1OcLfobGbIA=="
+        },
+        "m3": {
+          "ciphertext": "Oa7vEznAtzlfJ8HABKAIeOK94EOsLOAZvfpWWgr93QD0",
+          "associated_data": "BkEhCnkBWEFJHuqeX8z/5bibHKm5nPI=",
+          "tag": "BUasaRjbUdXZKI+DyHicjw=="
+        },
+        "forgery": {
+          "ciphertext": "B2+z+G7WUQH/jY0Uj5skuus5fTA8S0aGA8ILJS8CWiQ8plqnLaE=",
+          "associated_data": "1+0o8kuz95QiFwSZEeTAvCOeiGSag7NV"
+        }
+      }
+    },
+    "gcm-crack-zero": {
+      "action": "gcm_crack",
+      "arguments": {
+        "nonce": "4gF+BtR3ku/PUQci",
+        "m1": {
+          "ciphertext": "",
+          "associated_data": "",
+          "tag": "/MIQ8w/DHPVvOv4rqm3SbA=="
+        },
+        "m2": {
+          "ciphertext": "kk34FkY=",
+          "associated_data": "DqN5rkiKG6LyTXyLMZ6uww==",
+          "tag": "lW3dn/TQCMUEN5AMm+AI6g=="
+        },
+        "m3": {
+          "ciphertext": "IFlqEDVKCUEyCSeO4qc52w==",
+          "associated_data": "T8BtPuoNBCqpclfgLdrTxw==",
+          "tag": "eNuo4GhSFGUPWplnz/V8aQ=="
+        },
+        "forgery": {
+          "ciphertext": "U36aBZohfND3NO47kcqVJA==",
+          "associated_data": "lQ92P22pxWj/fjzzl4pKCQ=="
+        }
+      }
+    },
+    "gcm-crack-long": {
+      "action": "gcm_crack",
+      "arguments": {
+        "nonce": "4gF+BtR3ku/PUQci",
+        "m1": {
+          "ciphertext": "+MB7qZcwFPQGQOPRjwKqptxzdSP31U5qUsEOOXZWagHNrIjqrjKP1v4VY21CJtg1EzRhmorr9Z89WOWv6+8dJchx4auB0iRx5hxHcKztrCGYVjP9MO97N104QdH2hHTcTstg8g==",
+          "associated_data": "XHbLsnka7OvPMEJrPnwL/n9wPAb1X4Kx78Lfo0E+4EQPbFEdLPBvfhwxUgjg4ma4EzyHKvjsY+sFlix/V4XFkFp+F6ZNt5pJV+nOjBAePOlx7wAZS5g3LgIvm3Fds+6x5KVSTg==",
+          "tag": "hB+ca3Ca1CYwb+apLH5qNw=="
+        },
+        "m2": {
+          "ciphertext": "MaFWbe0=",
+          "associated_data": "Ii6XcPTsvx0YOPhjQWiuSA==",
+          "tag": "n76s35Lr1Zakg9vzsz4Kag=="
+        },
+        "m3": {
+          "ciphertext": "KrOIAMsqi0STBF36i+48iw==",
+          "associated_data": "DfyP/z89tXok6unGJDVsGQ==",
+          "tag": "lqIWEgVKjDBDyjmiB61x6g=="
+        },
+        "forgery": {
+          "ciphertext": "e5POKs6wbfFHH4vkhdqT1g==",
+          "associated_data": "YeGP8Fpjk5OKmAEx1BqQ3g=="
+        }
+      }
+    },
+    "gcm-crack-e91527eb-e557-448a-8af3-c3a151ffeea6": {
+      "action": "gcm_crack",
+      "arguments": {
+        "nonce": "MOuK1HbHMpaW3Ngz",
+        "m1": {
+          "ciphertext": "3O6VWKLwcEjTCbz6WRt+oTJhla1W0HHD3Zs5puk1TZ11Y0M07u0pYNU=",
+          "associated_data": "YhVL",
+          "tag": "hGzyqWVSTx+7+bgLkfA+0Q=="
+        },
+        "m2": {
+          "ciphertext": "fPEKQqcqqiZRXIDAbcCnlIOaQy6FD2E=",
+          "associated_data": "4oDMc5VTATIHrgPwXzUSurNB3tghLixpug==",
+          "tag": "YejafSrZtEgCxZdVoGzm6g=="
+        },
+        "m3": {
+          "ciphertext": "IZXj25QdDHxtHNNgwiM8OQt2WQFEhC/wxxccoaQUIxEvdQ==",
+          "associated_data": "rp1+6TgUGXsFmbx/dDCC",
+          "tag": "mtFxOhGtm9fIyO9hwaHpOA=="
+        },
+        "forgery": {
+          "ciphertext": "R0sWPwrImX02LEYYEEqxlOfXMjWnE7Mpu3GMpNpO0dmaM2ugtnNztvU=",
+          "associated_data": "5/XxkX8tqiiMAlI="
+        }
+      }
+    },
+    "gfpoly_factor_edf": {
+      "action": "gfpoly_factor_edf",
+      "arguments": {
+        "F":
+        [
+          "mmAAAAAAAAAAAAAAAAAAAA==",
+          "AbAAAAAAAAAAAAAAAAAAAA==",
+          "zgAAAAAAAAAAAAAAAAAAAA==",
+          "FwAAAAAAAAAAAAAAAAAAAA==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "d": 3
+      }
+    }
+  }
+}

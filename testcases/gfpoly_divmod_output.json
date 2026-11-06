@@ -1,0 +1,26 @@
+{
+  "responses": {
+    "gfpoly-divmod-divide-by-1": {
+      "Q": ["AAAAAAAAAAAAAAAAAAAAAA==", "gAAAAAAAAAAAAAAAAAAAAA==", "QAAAAAAAAAAAAAAAAAAAAA=="],
+      "R": [
+            "AAAAAAAAAAAAAAAAAAAAAA=="
+      ]
+    },
+    "gfpoly-divmod-zero": {
+      "Q": ["AAAAAAAAAAAAAAAAAAAAAA=="],
+      "R": ["AAAAAAAAAAAAAAAAAAAAAA=="]
+    },
+    "gfpoly-divmod-no-remainder": {
+      "Q": ["TAAAAAAAAAAAAAAAAAAAAA=="],
+      "R": ["AAAAAAAAAAAAAAAAAAAAAA=="]
+    },
+    "gfpoly-divmod-a-smaller-b": {
+      "Q": [
+            "AAAAAAAAAAAAAAAAAAAAAA=="
+      ],
+      "R": ["gAAAAAAAAAAAAAAAAAAAAA==",
+            "QAAAAAAAAAAAAAAAAAAAAA=="
+      ]
+    }
+  }
+}

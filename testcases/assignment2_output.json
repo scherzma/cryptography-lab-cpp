@@ -1,0 +1,24 @@
+{
+  "responses": {
+    "gcm-aes-encrypt": {
+      "ciphertext": "ET3RmvH/Hbuxba63EuPRrw==",
+      "tag": "Mp0APJb/ZIURRwQlMgNN/w==",
+      "L": "AAAAAAAAAEAAAAAAAAAAgA==",
+      "H": "Bu6ywbsUKlpmZXMQyuGAng=="
+    },
+    "gcm-sea-encrypt": {
+      "ciphertext": "0cI/Wg4R3URfrVFZ0hw/vg==",
+      "tag": "ysDdzOSnqLH0MQ+Mkb23gw==",
+      "L": "AAAAAAAAAEAAAAAAAAAAgA==",
+      "H": "xhFcAUT66qWIpYz+Ch5ujw=="
+    },
+    "gcm-aes-decrypt": {
+      "authentic": true,
+      "plaintext": "EREavadt90qq"
+    },
+    "gcm-sea-decrypt": {
+      "authentic": false,
+      "plaintext": "AxSiKm93Gr2+"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "responses": {
+    "poly-2-block": {
+      "block": "ARIAAAAAAAAAAAAAAAAAgA=="
+    },
+    "block-2-poly": {
+      "coefficients": [0, 9, 12, 127]
+    },
+    "gfmul": {
+      "product": "hSQAAAAAAAAAAAAAAAAAAA=="
+    },
+    "sea128-encrypt": {
+      "output": "D5FDo3iVBoBN9gVi9/MSKQ=="
+    },
+    "sea128-decrypt": {
+      "output": "yv66vvrO263eyviIiDNEVQ=="
+    },
+    "xex-encrypt": {
+      "output": "mHAVhRCKPAPx0BcufG5BZ4+/CbneMV/gRvqK5rtLe0OJgpDU5iT7z2P0R7gEeRDO"
+    },
+    "xex-decrypt": {
+      "output": "SGV5IHdpZSBrcmFzcyBkYXMgZnVua3Rpb25pZXJ0IGphIG9mZmVuYmFyIGVjaHQu"
+    }
+  }
+}

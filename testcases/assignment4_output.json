@@ -1,0 +1,137 @@
+{
+  "responses": {
+    "gfpoly-sort": {
+      "sorted_polys":  [
+        [
+          "WereNoStrangersToLoveA==",
+          "YouKnowTheRulesAAAAAAA==",
+          "AndSoDoIAAAAAAAAAAAAAA=="
+        ],
+        [
+          "NeverGonnaMakeYouCryAA==",
+          "NeverGonnaSayGoodbyeAA==",
+          "NeverGonnaTellALieAAAA==",
+          "AndHurtYouAAAAAAAAAAAA=="
+        ],
+        [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==",
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ]
+      ]
+    },
+    "gfpoly-make-monic": {
+      "A*":
+        [
+          "edY47onJ4MtCENDTHG/sZw==",
+          "oaXjCKnceBIxSavZ9eFT8w==",
+          "1Ial5rAJGOucIdUe3zh5bw==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ]
+    },
+    "gfpoly-sqrt": {
+      "S":
+        [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==",
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ]
+    },
+    "gfpoly-diff": {
+      "F'":
+        [
+          "HowImFeelingAAAAAAAAAA==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "UnderstaaaaaaaaaaaaanQ=="
+        ]
+    },
+    "gfpoly-gcd": {
+      "G":
+        [
+          "NeverGonnaMakeYouCryAA==",
+          "NeverGonnaSayGoodbyeAA==",
+          "NeverGonnaTellALieAAAA==",
+          "AndHurtYouAAAAAAAAAAAA==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ]
+    },
+    "gfpoly_factor_sff": {
+      "factors":
+        [
+          {
+            "factor":
+              [
+              "q4AAAAAAAAAAAAAAAAAAAA==",
+              "gAAAAAAAAAAAAAAAAAAAAA=="
+              ],
+            "exponent": 1
+          },
+          {
+          "factor":
+            [
+            "iwAAAAAAAAAAAAAAAAAAAA==",
+            "CAAAAAAAAAAAAAAAAAAAAA==",
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+            ],
+            "exponent": 2
+          },
+          {
+          "factor":
+            [
+            "kAAAAAAAAAAAAAAAAAAAAA==",
+            "CAAAAAAAAAAAAAAAAAAAAA==",
+            "wAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+            ],
+            "exponent": 3
+          }
+      ]
+    },
+    "gfpoly_factor_ddf": {
+      "factors":
+        [
+          {
+            "factor":
+              [
+                "q4AAAAAAAAAAAAAAAAAAAA==",
+                "gAAAAAAAAAAAAAAAAAAAAA=="
+              ],
+            "degree": 1
+          },
+          {
+            "factor":
+              [
+                "mmAAAAAAAAAAAAAAAAAAAA==",
+                "AbAAAAAAAAAAAAAAAAAAAA==",
+                "zgAAAAAAAAAAAAAAAAAAAA==",
+                "FwAAAAAAAAAAAAAAAAAAAA==",
+                "AAAAAAAAAAAAAAAAAAAAAA==",
+                "wAAAAAAAAAAAAAAAAAAAAA==",
+                "gAAAAAAAAAAAAAAAAAAAAA=="
+              ],
+            "degree": 3
+          }
+        ]
+    },
+    "gfpoly_factor_edf": {
+      "factors":
+        [
+          [
+            "iwAAAAAAAAAAAAAAAAAAAA==",
+            "CAAAAAAAAAAAAAAAAAAAAA==",
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+          ],
+          [
+            "kAAAAAAAAAAAAAAAAAAAAA==",
+            "CAAAAAAAAAAAAAAAAAAAAA==",
+            "wAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+          ]
+        ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.idea
+.vscode
+.venv
+source_files_content.txt
+
+source_files_content.txt
+Krypto
+Krypto/
+Krypto_lin/
+Krypto_lin
+
+# Build directories
+/build/
+/build/
+
+# C++ object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor backups
+*~
+*.swp
+# Local build and editor artifacts
+.DS_Store
+cmake-build-*/
+building/
+profile/
+*.kate-swp
+*.gcda
+*.gcno

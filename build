@@ -1,0 +1,24 @@
+#!/bin/bash
+
+rm -rf building
+rm -f cryptography-lab
+
+if [ -d "/dut" ]; then
+    cd /dut
+fi
+
+make -j4 profile-gen
+./KryptoCpp
+./KryptoCpp
+make profile-use
+
+
+ln -sf building/KryptoCpp cryptography-lab
+
+cd building
+./KryptoCpp
+./KryptoCpp
+./KryptoCpp
+./KryptoCpp
+./KryptoCpp
+./KryptoCpp

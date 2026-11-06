@@ -1,0 +1,48 @@
+{
+  "responses": {
+    "gfpoly-add": {
+      "S": [
+            "H1d3GuyA9/0OxeYouUpAAA==",
+            "OZuIncPAGEp4tYouDownAA==",
+            "NeverGonnaRunAroundAAA==",
+            "AndDesertYouAAAAAAAAAA=="
+      ]
+    },
+    "gfpoly-mul": {
+      "P": [
+          "MoAAAAAAAAAAAAAAAAAAAA==",
+          "sUgAAAAAAAAAAAAAAAAAAA==",
+          "MbQAAAAAAAAAAAAAAAAAAA==",
+          "AAhAAAAAAAAAAAAAAAAAAA=="
+      ]
+    },
+    "gfpoly-pow": {
+      "Z": [
+          "AkkAAAAAAAAAAAAAAAAAAA==",
+          "DDAAAAAAAAAAAAAAAAAAAA==",
+          "LQIIAAAAAAAAAAAAAAAAAA==",
+          "8AAAAAAAAAAAAAAAAAAAAA==",
+          "ACgCQAAAAAAAAAAAAAAAAA==",
+          "AAAMAAAAAAAAAAAAAAAAAA==",
+          "AAAAAgAAAAAAAAAAAAAAAA=="
+      ]
+    },
+    "gfdiv": {
+      "q": "OAAAAAAAAAAAAAAAAAAAAA=="
+    },
+    "gfpoly-divmod": {
+      "Q": [
+            "nAIAgCAIAgCAIAgCAIAgCg==",
+            "m85znOc5znOc5znOc5znOQ=="
+            ],
+      "R": [
+            "lQNA0DQNA0DQNA0DQNA0Dg=="
+      ]
+    },
+    "gfpoly-powmod": {
+      "Z": [
+      "oNXl5P8xq2WpUTP92u25zg=="
+      ]
+    }
+  }
+}
